@@ -3,8 +3,8 @@ function my_Dictionary() {
         Divisions:"A , B , C",
         Formats:"8vs8 , 5vs5",
         Teams:"12 , 32",
+        delete Football.Teams;
     };
+    delete Football.Teams;
     document.getElementById("Dictionary").innerHTML = Football.Teams
 }
-
-delete Football.Teams:;
